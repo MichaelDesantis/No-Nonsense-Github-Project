@@ -1,7 +1,7 @@
 omg! all lines in this readme starting with "omg!" will be removed before final deployment and are notes for the video production.
 
 #GitHub in 1 Hour.
-![alt tag](img/Octocat.jpg) ![alt tag](img/GitHub_Logo_SmartObject.psd)
+![alt tag](img/github_01.png) 
 ###A 1 hour no nonsense video course covering the basic usage of the worlds most popular version control software!
 
 Hello world, I'm Michael Desantis! A Full-Stack web developer and Teachers Assistant at the Coding Bootcamp at UT Austin. In this video course I will be introducing the basics of .Git and GitHub (and no, they're not the same thing). I am creating this repository and README here to use as a handy reference guide to accompany the video material.
