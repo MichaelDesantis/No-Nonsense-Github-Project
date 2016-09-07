@@ -12,8 +12,8 @@ In this tutorial, you can watch and take notes. Or you can build a GitHub Reposi
 
 The goal of this project is to provide you, the end user, with a brief, concise, and fast-paced instructional on how to use GIT. By the end of these videos, you should have a basic yet functional grasp and understanding of how to implement GIT in your development and projects. 
 
-###Video 1 : Introduction to GIT and Version Control.
-In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it important? When should it be used? Who uses it? Where is it used? I'll also show you how to install and configure it for the first time. I'll be going over how to use it over the next 7 videos.  
+##Video 1 : Introduction to GIT and Version Control.
+In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it important? When should it be used? Who uses it? Where is it used? I'll also show you how to install and configure it for the first time. Don't worry, we'll go over how to use GIT in the next 7 videos.  
 
 #####Slides from video
 
@@ -31,7 +31,7 @@ In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it import
 2. git config --global user.name "Your Name"  (configure username)
 3. git config --global user.email yourname@example.com  (configure email)
 
-###Video 2 : Building your first repository.
+##Video 2 : Building your first repository.
 In this video, I'll guide you through building your first repository on your local computer. As well as how to connect it to GitHub. 
 
 #####Slides from video
@@ -46,10 +46,11 @@ In this video, I'll guide you through building your first repository on your loc
 2. git remote add origin git@github.com:Username/Repository-Name  (connect your local repository to github)
 3. git status  (see which files have been changed, and which ones you're adding)
 4. git add fileName (track file, stage it for commit)
-5. git commit -m "Your Message here" (commit your changes, attach a message, create save point)
-6. git push origin master (send changes from your computer to GitHub)
+5. git checkout fileName  (un-stage a file you didn;t mean to add)
+6. git commit -m "Your Message here" (commit your changes, attach a message, create save point)
+7. git push origin master (send changes from your computer to GitHub)
 
-###Video 3 : Your first collaborative exercise + basic workflow. 
+##Video 3 : Your first collaborative exercise + basic workflow. 
 In this video, I'll show you how to pull the latest changes from GitHub. How to fork and clone other peoples repositories. How to submit a pull request. And showing you a simple GitHub workflow. BONUS: learn how a gitignore file works! 
 
 #####Slides from video
@@ -66,37 +67,63 @@ In this video, I'll show you how to pull the latest changes from GitHub. How to 
 2. git pull origin master  (pull latest changes from GitHub)
 3. git remote -v  (view remote connections)
 
-###Video 4 : All about branching.
-video explanation text.
-#####slides from video
+##Video 4 : All about branching.
+In this video, I'll show you what "branching" is. As well as how it works, why it's useful, and how to use it.
+
+#####Slides from video
+
 #####Helpful Links
-#####GIT commands used
-omg! video topic: branching. changing branches, viewing branches, merging branches, deleting branches, why use branches.
+
+1. https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/  (branch management from github)
+2. https://guides.github.com/introduction/flow/ (explanation on why branches are useful)
+3. https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging  (branching in more depth)
+
+#####New GIT commands used
+
+1. git branch  (view all existing branches on your local machine)
+2. git branch branchName (creates a new branch named branchName)
+3. git checkout branchName  (switch from current branch onto a branch named branchName)
+4. git checkout -b branchname (creates a new branch named branchName and switches to it, combination of above two commands)
+5. git branch -d branchName  (delete a branch named branchName)
+6. git merge branchName  (pull changes FROM branch named branchName INTO the branch you're currently on)
 
 #INTERMEDIATE VIDEOS START HERE.
 
-###Video 5 : Dealing with merge conflicts, remote repositories, and developing as a team. 
+##Video 5 : Dealing with merge conflicts, remote repositories, and developing as a team. 
 video explanation text.
-#####slides from video
+
+#####Slides from video
+
 #####Helpful Links
-#####GIT commands used
+
+1. https://help.github.com/articles/fetching-a-remote/  (the fetch command in more detail)
+2. https://help.github.com/articles/changing-a-remote-s-url/  (changing your remote url)
+
+#####New GIT commands used
+
+1. git remote add repoName git@github.com:Username/Repository-Name  (allows multiple remote repositories)
+2. git fetch repoName branchName  (fetch changes from remote repo WITHOUT automatically merging them)
+3. git pull repoName branchName  (get changes, pull and merge them onto local machine)
+4. git remote set-url repoName git@github.com:Username/Repository-Name  (allows you to change the url for your GIT to GitHub connection)
+5. rm -rf .git  (forcibly remove the .git file from your directory. WARNING!!! USE WITH EXTREME CAUTION!!!)
+
 omg! video topic: when multiple people develop as a team. git remote repositories, git url changes, git fetch, conflict resolution. deleting files. commit history vs file.
 
-###Video 6 When things go wrong, and how to fix them.
+##Video 6 When things go wrong, and how to fix them.
 video explanation text.
 #####slides from video
 #####Helpful Links
 #####GIT commands used
 omg! video topic: reverting changes, pulling previous versions, undoing commits, why commit messages matter.
 
-###Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
+##Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
 video explanation text.
 #####slides from video
 #####Helpful Links
 #####GIT commands used
 omg! video topic: expanded git workflow. resolving issues with git diff. git rebase, remove a .git file.
 
-###Video 8 Documenting your code, and GIT commands in depth.
+##Video 8 Documenting your code, and GIT commands in depth.
 video explanation text.
 #####slides from video
 #####Helpful Links
