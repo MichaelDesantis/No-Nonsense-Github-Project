@@ -46,9 +46,10 @@ In this video, I'll guide you through building your first repository on your loc
 2. git remote add origin git@github.com:Username/Repository-Name  (connect your local repository to github)
 3. git status  (see which files have been changed, and which ones you're adding)
 4. git add fileName (track file, stage it for commit)
-5. git checkout fileName  (un-stage a file you didn;t mean to add)
+5. git checkout fileName  (discard a file you didn't mean to add)
 6. git commit -m "Your Message here" (commit your changes, attach a message, create save point)
 7. git push origin master (send changes from your computer to GitHub)
+8. git reset HEAD fileName  (un-stage a file to prevent commiting it)
 
 ##Video 3 : Your first collaborative exercise + basic workflow. 
 In this video, I'll show you how to pull the latest changes from GitHub. How to fork and clone other peoples repositories. How to submit a pull request. And showing you a simple GitHub workflow. BONUS: learn how a gitignore file works! 
@@ -90,7 +91,7 @@ In this video, I'll show you what "branching" is. As well as how it works, why i
 #INTERMEDIATE VIDEOS START HERE.
 
 ##Video 5 : Dealing with merge conflicts, remote repositories, and developing as a team. 
-video explanation text.
+In this video, I'll show you some common issues encountered when developing as a team, aow to resolve a merge conflicts, how to set up multiple remote repositories, and how to change the url connection to a remote repository. You'll also learn how to fetch changes, pull changes, and merge changes from other repositories sucessfully. You'll also understand why git "adds" deleted files and how you can delete your GIT repository.
 
 #####Slides from video
 
@@ -107,13 +108,24 @@ video explanation text.
 4. git remote set-url repoName git@github.com:Username/Repository-Name  (allows you to change the url for your GIT to GitHub connection)
 5. rm -rf .git  (forcibly remove the .git file from your directory. WARNING!!! USE WITH EXTREME CAUTION!!!)
 
-omg! video topic: when multiple people develop as a team. git remote repositories, git url changes, git fetch, conflict resolution. deleting files. commit history vs file.
-
 ##Video 6 When things go wrong, and how to fix them.
-video explanation text.
+In this video, I'll go over how to roll back to a previous commit in the event that something breaks. You'll also learn how to access previous versions of your code and the importance of why commit messages are so important.
+
 #####slides from video
+
 #####Helpful Links
-#####GIT commands used
+
+1. https://help.github.com/desktop/guides/contributing/reverting-a-commit/  (reverting a commit from desktop)
+
+#####New GIT commands used
+
+1. git reset --soft 
+2. git reset --hard
+3.
+4,
+5.
+
+
 omg! video topic: reverting changes, pulling previous versions, undoing commits, why commit messages matter.
 
 ##Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
