@@ -1,5 +1,7 @@
 omg! all lines in this readme starting with "omg!" will be removed before final deployment and are notes for the video production. This is a test line to test the new url.
 
+omg! slides to be included in their individual folders. 
+
 #The no nonsense GitHub Project. 
 ![alt tag](img/github_01.png) 
 ##A 1 hour no nonsense video tutorial series covering the basic usage of the worlds most popular version control software! 
@@ -14,8 +16,6 @@ The goal of this project is to provide you, the end user, with a brief, concise,
 
 ##Video 1 : Introduction to GIT and Version Control.
 In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it important? When should it be used? Who uses it? Where is it used? I'll also show you how to install and configure it for the first time. Don't worry, we'll go over how to use GIT in the next 7 videos.  
-
-#####Slides from video
 
 #####Helpful Links
 
@@ -33,8 +33,6 @@ In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it import
 
 ##Video 2 : Building your first repository.
 In this video, I'll guide you through building your first repository on your local computer. As well as how to connect it to GitHub. 
-
-#####Slides from video
 
 #####Helpful Links
 
@@ -54,8 +52,6 @@ In this video, I'll guide you through building your first repository on your loc
 ##Video 3 : Your first collaborative exercise + basic workflow. 
 In this video, I'll show you how to pull the latest changes from GitHub. How to fork and clone other peoples repositories. How to submit a pull request. And showing you a simple GitHub workflow. BONUS: learn how a gitignore file works! 
 
-#####Slides from video
-
 #####Helpful Links
 
 1. https://help.github.com/articles/about-pull-requests/  (more detail on pull requests)
@@ -70,8 +66,6 @@ In this video, I'll show you how to pull the latest changes from GitHub. How to 
 
 ##Video 4 : All about branching.
 In this video, I'll show you what "branching" is. As well as how it works, why it's useful, and how to use it.
-
-#####Slides from video
 
 #####Helpful Links
 
@@ -88,12 +82,8 @@ In this video, I'll show you what "branching" is. As well as how it works, why i
 5. git branch -d branchName  (delete a branch named branchName)
 6. git merge branchName  (pull changes FROM branch named branchName INTO the branch you're currently on)
 
-#INTERMEDIATE VIDEOS START HERE.
-
 ##Video 5 : Dealing with merge conflicts, remote repositories, and developing as a team. 
-In this video, I'll show you some common issues encountered when developing as a team, aow to resolve a merge conflicts, how to set up multiple remote repositories, and how to change the url connection to a remote repository. You'll also learn how to fetch changes, pull changes, and merge changes from other repositories sucessfully. You'll also understand why git "adds" deleted files and how you can delete your GIT repository.
-
-#####Slides from video
+In this video, I'll show you some common issues encountered when developing as a team, how to resolve a merge conflicts, how to set up multiple remote repositories, and how to change the url connection to a remote repository. You'll also learn how to fetch changes, pull changes, and merge changes from other repositories sucessfully. You'll also understand why git "adds" deleted files.
 
 #####Helpful Links
 
@@ -106,18 +96,16 @@ In this video, I'll show you some common issues encountered when developing as a
 2. git fetch repoName branchName  (fetch changes from remote repo WITHOUT automatically merging them)
 3. git pull repoName branchName  (get changes, pull and merge them onto local machine)
 4. git remote set-url repoName git@github.com:Username/Repository-Name  (allows you to change the url for your GIT to GitHub connection)
-5. rm -rf .git  (forcibly remove the .git file from your directory. WARNING!!! USE WITH EXTREME CAUTION!!!)
+
+#INTERMEDIATE VIDEOS START HERE
 
 ##Video 6 When things go wrong, and how to fix them.
 In this video, I'll go over how to roll back to a previous commit in the event that something breaks. You'll also learn how to access previous versions of your code and the importance of why commit messages are so important.
 
-#####slides from video
-
 #####Helpful Links
 
-1. https://help.github.com/desktop/guides/contributing/reverting-a-commit/  (reverting a commit from desktop)
-2. https://github.com/blog/2019-how-to-undo-almost-anything-with-git  (undo almost anything in git, detailed article)
-3. http://stackoverflow.com/questions/4372435/how-can-i-rollback-a-github-repository-to-a-specific-commit  (community input on best practices when reverting a commit)
+1. https://github.com/blog/2019-how-to-undo-almost-anything-with-git  (undo almost anything in git, detailed article)
+2. http://stackoverflow.com/questions/4372435/how-can-i-rollback-a-github-repository-to-a-specific-commit  (community input on best practices when reverting a commit)
 
 #####New GIT commands used
 
@@ -128,15 +116,33 @@ In this video, I'll go over how to roll back to a previous commit in the event t
 5. git pull repoName theSHAid  (pull previous commit from remote repository)
 
 ##Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
-video explanation text.
-#####slides from video
+In this video, I'll show you how to debug large branches with multiple merge conflicts, how to compare and sync up branches in advance to avoid merge conflict disasters, how to compare two separate branches against their parent branch, and how to combine your commits together to keep things organized. You'll also learn a more advanced GIT workflow that will allow for faster development. 
+
 #####Helpful Links
-#####GIT commands used
-omg! video topic: expanded git workflow. resolving issues with git diff. git rebase, remove a .git file.
+
+1. 
+2. 
+
+#####New GIT commands used
+
+1. rm -rf .git  (forcibly remove the .git file from your directory. WARNING!!! USE WITH EXTREME CAUTION!!!)
+2. git diff branch1..branch2  (compare differences between two branches)
+3. git diff branch1...branch2  (compare branch1 and branch2 against their parent branch)
+4. git diff branch1..branch2->branchlog.txt  (compares two branches, creates branchlog.txt if it doesn't already exist, and prints the output of the branch differences to the text file)
+5. git rebase  (????)
 
 ##Video 8 Documenting your code, and GIT commands in depth.
-video explanation text.
-#####slides from video
+In this video, I'll be explaining why 
+
 #####Helpful Links
-#####GIT commands used
+
+1.
+2.
+
+#####New GIT commands used
+
+1. git tag
+2. git --help
+3. git commandName --help
+
 omg! video topic: writing documentation. git tag, git log, git commandName --help, Why document your projects. Contribute to open source.
