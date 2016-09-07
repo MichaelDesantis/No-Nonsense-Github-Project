@@ -1,4 +1,4 @@
-omg! all lines in this readme starting with "omg!" will be removed before final deployment and are notes for the video production.
+omg! all lines in this readme starting with "omg!" will be removed before final deployment and are notes for the video production. This is a test line to test the new url.
 
 #The no nonsense GitHub Project. 
 ![alt tag](img/github_01.png) 
