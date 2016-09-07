@@ -120,8 +120,8 @@ In this video, I'll show you how to debug large branches with multiple merge con
 
 #####Helpful Links
 
-1. 
-2. 
+1. https://git-scm.com/docs/git-diff  (git diff in detail, additional use cases and options)
+2. https://git-scm.com/docs/git-rebase  (git rebase, maximum level detail)
 
 #####New GIT commands used
 
@@ -129,7 +129,10 @@ In this video, I'll show you how to debug large branches with multiple merge con
 2. git diff branch1..branch2  (compare differences between two branches)
 3. git diff branch1...branch2  (compare branch1 and branch2 against their parent branch)
 4. git diff branch1..branch2->branchlog.txt  (compares two branches, creates branchlog.txt if it doesn't already exist, and prints the output of the branch differences to the text file)
-5. git rebase  (????)
+5. git diff HEAD  (compare current directory to last commit)
+6. git rebase  -i HEAD~5  (combine previous 5 commits into one commit)
+7. git rebase repoName branchName (merge from repoName branchName into your current branch without creating a merge commit. places your commits at the top in the history line)
+8. git push repoName --delete branchName  (delete a branch named branchName that exists on your remote repository)
 
 ##Video 8 Documenting your code, and GIT commands in depth.
 In this video, I'll be explaining why 
