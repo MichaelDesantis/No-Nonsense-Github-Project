@@ -15,14 +15,16 @@ The goal of this project is to provide you, the end user, with a brief, concise,
 ###Video 1 : Introduction to GIT and Version Control.
 In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it important? When should it be used? Who uses it? Where is it used? I'll also show you how to install and configure it for the first time. I'll be going over how to use it over the next 7 videos.  
 video accompanying images.
-helpful links
+
+#####Helpful Links
 1. https://git-scm.com/download  (download page)
 2. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git  (installation guide)
 3. https://help.github.com/articles/set-up-git/ (configure your local computer to match your GitHub account)
 4. https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/ (ssh credentials, because re-entering your password each time is time consuming)
 5. https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ (git documentation on setting up ssh)
 
-git commands used
+#####GIT commands used
+
 1. git --version  (tells you what version you have installed)
 2. git config --global user.name "Your Name"
 3. git config --global user.email yourname@example.com
