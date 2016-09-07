@@ -116,17 +116,16 @@ In this video, I'll go over how to roll back to a previous commit in the event t
 #####Helpful Links
 
 1. https://help.github.com/desktop/guides/contributing/reverting-a-commit/  (reverting a commit from desktop)
+2. https://github.com/blog/2019-how-to-undo-almost-anything-with-git  (undo almost anything in git, detailed article)
+3. http://stackoverflow.com/questions/4372435/how-can-i-rollback-a-github-repository-to-a-specific-commit  (community input on best practices when reverting a commit)
 
 #####New GIT commands used
 
-1. git reset --soft 
-2. git reset --hard
-3.
-4,
-5.
-
-
-omg! video topic: reverting changes, pulling previous versions, undoing commits, why commit messages matter.
+1. git log  (view commit history, messages, and SHA ids for each commit. type 'q' to quit)
+2. git reset --soft HEAD^  (roll back to previous commit, leave changes staged)
+3. git reset --hard HEAD^  (roll back to previous commit, unstage changes) 
+4. git revert theSHAid  (revert to any previous commit of your choice, just replace theSHAid with the actual SHA hash)
+5. git pull repoName theSHAid  (pull previous commit from remote repository)
 
 ##Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
 video explanation text.
