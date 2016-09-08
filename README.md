@@ -1,7 +1,3 @@
-omg! all lines in this readme starting with "omg!" will be removed before final deployment and are notes for the video production. This is a test line to test the new url.
-
-omg! slides to be included in their individual folders. 
-
 #The no nonsense GitHub Project. 
 ![alt tag](img/github_01.png) 
 ##A 1 hour no nonsense video tutorial series covering the basic usage of the worlds most popular version control software! 
@@ -142,10 +138,12 @@ In this video, I'll be explaining why documentation matters. As well as some com
 #####Helpful Links
 
 1. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  (README.md syntax cheat sheet)
-2. 
+2. http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/  (an article on why documentation matters)
+3. https://git-scm.com/book/en/v2/Git-Basics-Tagging  (git tagging in depth)
 
 #####New GIT commands used
 
-1. git tag
-2. git --help
-3. git commandName --help
+1. git tag  (assign a version number to a commit. Can also take a -a argument for annotations)
+2. git --help  (brings up help menu and displays common options)
+3. git commandName --help  (display full manual on usage of specified command. press q to exit reader)
+4. git show v1.0  (show version 1.0)
