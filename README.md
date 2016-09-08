@@ -143,7 +143,8 @@ In this video, I'll be explaining why documentation matters. As well as some com
 
 #####New GIT commands used
 
-1. git tag  (assign a version number to a commit. Can also take a -a argument for annotations)
-2. git --help  (brings up help menu and displays common options)
-3. git commandName --help  (display full manual on usage of specified command. press q to exit reader)
-4. git show v1.0  (show version 1.0)
+1. git tag -a v0.0 -m "message" (assign a version number of 0.0 and a message to a commit.)
+2. git tag  (view existing tags)
+3. git --help  (brings up help menu and displays common options)
+4. git commandName --help  (display full manual on usage of specified command. press q to exit reader)
+5. git show v1.0  (show version 1.0)
