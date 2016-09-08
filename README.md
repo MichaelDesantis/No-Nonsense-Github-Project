@@ -12,7 +12,7 @@ The goal of this project is to provide you, the end user, with a brief, concise,
 
 ##Video 1 : Introduction to GIT and Version Control.
 In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it important? When should it be used? Who uses it? Where is it used? I'll also show you how to install and configure it for the first time. Don't worry, we'll go over how to use GIT in the next 7 videos. 
-[![Text Title](video1-img/Octocat.png)](https://www.youtube.com/watch?v=HkDS6Bdky6s) 
+[![Text Title](img/youtube_logo.png)](https://www.youtube.com/watch?v=HkDS6Bdky6s) 
 
 #####Helpful Links
 
