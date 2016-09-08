@@ -11,7 +11,8 @@ In this tutorial, you can watch and take notes. Or you can build a GitHub Reposi
 The goal of this project is to provide you, the end user, with a brief, concise, and fast-paced instructional on how to use GIT. By the end of these videos, you should have a basic yet functional grasp and understanding of how to implement GIT in your development and projects. 
 
 ##Video 1 : Introduction to GIT and Version Control.
-In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it important? When should it be used? Who uses it? Where is it used? I'll also show you how to install and configure it for the first time. Don't worry, we'll go over how to use GIT in the next 7 videos.  
+In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it important? When should it be used? Who uses it? Where is it used? I'll also show you how to install and configure it for the first time. Don't worry, we'll go over how to use GIT in the next 7 videos. 
+[![Text Title](video1-img/Octocat.png)](https://www.youtube.com/watch?v=HkDS6Bdky6s) 
 
 #####Helpful Links
 
@@ -27,6 +28,7 @@ In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it import
 1. git --version  (tells you what version you have installed)
 2. git config --global user.name "Your Name"  (configure username)
 3. git config --global user.email yourname@example.com  (configure email)
+4. git config --list  (display user and email configurations)
 
 ##Video 2 : Building your first repository.
 In this video, I'll guide you through building your first repository on your local computer. As well as how to connect it to GitHub. 
