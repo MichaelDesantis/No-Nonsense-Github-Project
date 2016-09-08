@@ -42,6 +42,7 @@ In this video, I'll guide you through building your first repository on your loc
 #####Helpful Links
 
 1. https://help.github.com/articles/adding-a-file-to-a-repository-from-the-command-line/ (adding files from command line)
+2. https://github.com/robbyrussell/oh-my-zsh  (oh-my-zsh plugin. It'll make your life a lot easier)
 
 #####New GIT commands used
 
