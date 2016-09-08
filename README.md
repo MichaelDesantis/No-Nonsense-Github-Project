@@ -147,4 +147,4 @@ In this video, I'll be explaining why documentation matters. As well as some com
 2. git tag  (view existing tags)
 3. git --help  (brings up help menu and displays common options)
 4. git commandName --help  (display full manual on usage of specified command. press q to exit reader)
-5. git show v1.0  (show version 1.0)
+5. git show v1.0  (show version 1.0 and associated information)
