@@ -24,6 +24,7 @@ In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it import
 3. https://help.github.com/articles/set-up-git/ (configure your local computer to match your GitHub account)
 4. https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/ (ssh credentials, because re-entering your password each time is time consuming)
 5. https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ (git documentation on setting up ssh)
+6. https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf  (github cheat sheet. Your most useful resource on this list)
 
 #####New GIT commands used
 
@@ -122,6 +123,7 @@ In this video, I'll show you how to debug large branches with multiple merge con
 
 1. https://git-scm.com/docs/git-diff  (git diff in detail, additional use cases and options)
 2. https://git-scm.com/docs/git-rebase  (git rebase, maximum level detail)
+3. https://nathanleclaire.com/blog/2014/09/14/dont-be-scared-of-git-rebase/  (git rebase, informal guide)
 
 #####New GIT commands used
 
@@ -130,24 +132,20 @@ In this video, I'll show you how to debug large branches with multiple merge con
 3. git diff branch1...branch2  (compare branch1 and branch2 against their parent branch)
 4. git diff branch1..branch2->branchlog.txt  (compares two branches, creates branchlog.txt if it doesn't already exist, and prints the output of the branch differences to the text file)
 5. git diff HEAD  (compare current directory to last commit)
-6. git rebase -i HEAD~5  (combine previous 5 commits into one commit)
+6. git rebase -i HEAD~5  (combine previous 5 commits into one commit. WILL OPEN VIM, use esc, i, :w, :q)
 7. git rebase repoName/branchName (merge from repoName branchName into your current branch without creating a merge commit. places your commits at the top in the history line)
 8. git push repoName --delete branchName  (delete a branch named branchName that exists on your remote repository)
 
 ##Video 8 Documenting your code, and GIT commands in depth.
-In this video, I'll be explaining why 
+In this video, I'll be explaining why documentation matters. As well as some common practices for documenting your code. 
 
 #####Helpful Links
 
-1.
-2. https://nathanleclaire.com/blog/2014/09/14/dont-be-scared-of-git-rebase/  (git rebase, informal guide)
+1. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  (README.md syntax cheat sheet)
+2. 
 
 #####New GIT commands used
 
 1. git tag
 2. git --help
 3. git commandName --help
-
-omg! video topic: writing documentation. git tag, git log, git commandName --help, Why document your projects. Contribute to open source.
-
-omg!
