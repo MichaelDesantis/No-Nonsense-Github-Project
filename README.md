@@ -1,3 +1,5 @@
+(the screencast videos are an ad libbed temporary solution until I get a chance to create proper scripted content.)
+
 #The no nonsense GitHub Project. 
 ![alt tag](img/github_01.png) 
 ##A 1 hour no nonsense video tutorial series covering the basic usage of the worlds most popular version control software! 
@@ -78,7 +80,7 @@ In this video, I'll show you how to pull the latest changes from GitHub. How to 
 In this video, I'll show you what "branching" is. As well as how it works, why it's useful, and how to use it.
 
 #####Video Link
-[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=9efyKL058Qg) 
+[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=ob2gVudg-JI) 
 
 #####Helpful Links
 
@@ -88,7 +90,7 @@ In this video, I'll show you what "branching" is. As well as how it works, why i
 
 #####New GIT commands used
 
-1. git branch  (view all existing branches on your local machine)
+1. git branch  (view all existing branches on your local repository)
 2. git branch branchName (creates a new branch named branchName)
 3. git checkout branchName  (switch from current branch onto a branch named branchName)
 4. git checkout -b branchname (creates a new branch named branchName and switches to it, combination of above two commands)
@@ -113,7 +115,7 @@ In this video, I'll show you some common issues encountered when developing as a
 3. git pull repoName branchName  (get changes, pull and merge them onto local machine)
 4. git remote set-url repoName git@github.com:Username/Repository-Name  (allows you to change the url for your GIT to GitHub connection)
 
-#INTERMEDIATE VIDEOS START HERE
+###At this point, you know enough GIT and GitHub to cover 95% of situations you're likely to encounter. I recommend building some familiarity with your new skills before advancing to the next 3 videos.
 
 ##Video 6 When things go wrong, and how to fix them.
 In this video, I'll go over how to roll back to a previous commit in the event that something breaks. You'll also learn how to access previous versions of your code and the importance of why commit messages are so important.
