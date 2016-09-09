@@ -37,7 +37,7 @@ In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it import
 In this video, I'll guide you through building your first repository on your local computer. As well as how to connect it to GitHub. 
 
 #####Video Link
-[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=9efyKL058Qg) 
+[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=xSXi9sTl0EY) 
 
 #####Helpful Links
 
