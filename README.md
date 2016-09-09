@@ -59,7 +59,7 @@ In this video, I'll guide you through building your first repository on your loc
 In this video, I'll show you how to pull the latest changes from GitHub. How to fork and clone other peoples repositories. How to submit a pull request. And showing you a simple GitHub workflow. BONUS: learn how a gitignore file works! 
 
 #####Video Link
-[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=9efyKL058Qg) 
+[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=e_NZmxRb8wk) 
 
 
 #####Helpful Links
