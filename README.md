@@ -110,10 +110,11 @@ In this video, I'll show you some common issues encountered when developing as a
 
 #####New GIT commands used
 
-1. git remote add repoName git@github.com:Username/Repository-Name  (allows multiple remote repositories)
+1. git remote add repoName https://github.com/Username/Repository-Name.git  (allows multiple remote repositories)
 2. git fetch repoName branchName  (fetch changes from remote repo WITHOUT automatically merging them)
 3. git pull repoName branchName  (get changes, pull and merge them onto local machine)
 4. git remote set-url repoName git@github.com:Username/Repository-Name  (allows you to change the url for your GIT to GitHub connection)
+5. git remote rm repoName  (remove a remote repository)
 
 ###At this point, you know enough GIT and GitHub to cover 95% of situations you're likely to encounter. I recommend building some familiarity with your new skills before advancing to the next 3 videos.
 
