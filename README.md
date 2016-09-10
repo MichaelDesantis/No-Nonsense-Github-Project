@@ -48,11 +48,11 @@ In this video, I'll guide you through building your first repository on your loc
 
 #####New GIT commands used
 
-1. git init  (initialize git on local machine)
+1. git init  (initialize git in local directory)
 2. git remote add origin git@github.com:Username/Repository-Name  (connect your local repository to github)
 3. git status  (see which files have been changed, and which ones you're adding)
 4. git add fileName (track file, stage it for commit)
-5. git checkout fileName  (discard a file you didn't mean to add)
+5. git checkout fileName  (discard file changes you don't want to add)
 6. git commit -m "Your Message here" (commit your changes, attach a message, create save point)
 7. git push origin master (send changes from your computer to GitHub)
 8. git reset HEAD fileName  (un-stage a file to prevent commiting it)
@@ -73,7 +73,7 @@ In this video, I'll show you how to pull the latest changes from GitHub. How to 
 #####New GIT commands used
 
 1. touch .gitignore  (create .gitignore file)
-2. git pull origin master  (pull latest changes from GitHub)
+2. git pull origin master  (pull latest changes from your GitHub repository)
 3. git remote -v  (view remote connections)
 
 ##Video 4 : All about branching.
@@ -98,10 +98,10 @@ In this video, I'll show you what "branching" is. As well as how it works, why i
 6. git merge branchName  (pull changes FROM branch named branchName INTO the branch you're currently on)
 
 ##Video 5 : Dealing with merge conflicts, remote repositories, and developing as a team. 
-In this video, I'll show you some common issues encountered when developing as a team, how to resolve a merge conflicts, how to set up multiple remote repositories, and how to change the url connection to a remote repository. You'll also learn how to fetch changes, pull changes, and merge changes from other repositories sucessfully. You'll also understand why git "adds" deleted files.
+In this video, I'll show you some common issues encountered when developing as a team, how to resolve a merge conflicts, how to set up multiple remote repositories, and how to change the url connection to a remote repository. You'll also learn how to fetch changes, pull changes, and merge changes from other repositories sucessfully. 
 
 #####Video Link
-[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=9efyKL058Qg) 
+[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=fy1WsnJZOC4) 
 
 #####Helpful Links
 
