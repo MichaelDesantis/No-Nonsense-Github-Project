@@ -135,10 +135,12 @@ In this video, I'll go over how to roll back to a previous commit in the event t
 
 1. git log  (view commit history, messages, and SHA ids for each commit. type 'q' to quit)
 2. git reset --soft HEAD^  (roll back to previous commit, leave changes staged)
-3. git reset --hard HEAD^  (roll back to previous commit, unstage changes) 
-4. git revert theSHAid  (revert to any previous commit of your choice, just replace theSHAid with the actual SHA hash)
-5. git pull repoName theSHAid  (pull previous commit from remote repository)
-6. git commit --amend -m "new commit message"  (change your previous commit message)
+3. git reset --hard HEAD^  (roll back to previous commit, unstage changes)
+4. git reset --hard theSHAid  (roll back to any commit. WARNING: re-writes git history) 
+5. git revert --no-commit theSHAid..HEAD  (revert from HEAD to any previous commit of your choice, just replace theSHAid with the actual SHA hash from the git log)
+6. git revert --continue  (continue forward with your revert. Creates revert commit)
+7. git pull repoName theSHAid  (pull previous commit from remote repository)
+8. git commit --amend -m "new commit message"  (change your previous commit message)
 
 ##Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
 In this video, I'll show you how to debug large branches with multiple merge conflicts, how to compare and sync up branches in advance to avoid merge conflict disasters, how to compare two separate branches against their parent branch, and how to combine your commits together to keep things organized. You'll also learn a more advanced GIT workflow that will allow for faster development. 
