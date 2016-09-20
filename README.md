@@ -129,6 +129,7 @@ In this video, I'll go over how to roll back to a previous commit in the event t
 1. https://github.com/blog/2019-how-to-undo-almost-anything-with-git  (undo almost anything in git, detailed article)
 2. http://stackoverflow.com/questions/4372435/how-can-i-rollback-a-github-repository-to-a-specific-commit  (community input on best practices when reverting a commit)
 3. http://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commits  (amending a commit message, also touches on git rebase)
+4. http://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit  (git revert syntax, and use cases)
 
 #####New GIT commands used
 
