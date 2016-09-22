@@ -2,7 +2,7 @@
 
 #The no nonsense GitHub Project. 
 ![alt tag](img/github_01.png) 
-##A 1 hour no nonsense video tutorial series covering the basic usage of the worlds most popular version control software! 
+##A 1 hour no nonsense video tutorial series covering the basic usage of the world's most popular version control software! 
 
 Are you a self-taught Web or Software developer looking to take your first steps into the world of collaborative development? Or a coding bootcamp student looking to work on your first group project? Or perhaps you have simply never used GIT before and could use a crash course on how to use this software? If any of these apply to you, you've come to the right place.
 
@@ -30,10 +30,12 @@ In this video, I'll be explaining the 5W's of GIT. What is Git? Why is it import
 
 #####New GIT commands used
 
+```
 1. git --version  (tells you what version you have installed)
 2. git config --global user.name "Your Name"  (configure username)
 3. git config --global user.email yourname@example.com  (configure email)
 4. git config --list  (display user and email configurations)
+```
 
 ##Video 2 : Building your first repository.
 In this video, I'll guide you through building your first repository on your local computer. As well as how to connect it to GitHub. 
@@ -48,6 +50,7 @@ In this video, I'll guide you through building your first repository on your loc
 
 #####New GIT commands used
 
+```
 1. git init  (initialize git in local directory)
 2. git remote add origin git@github.com:Username/Repository-Name  (connect your local repository to github)
 3. git status  (see which files have been changed, and which ones you're adding)
@@ -56,6 +59,7 @@ In this video, I'll guide you through building your first repository on your loc
 6. git commit -m "Your Message here" (commit your changes, attach a message, create save point)
 7. git push origin master (send changes from your computer to GitHub)
 8. git reset HEAD fileName  (un-stage a file to prevent commiting it)
+```
 
 ##Video 3 : Your first collaborative exercise + basic workflow. 
 In this video, I'll show you how to pull the latest changes from GitHub. How to fork and clone other peoples repositories. How to submit a pull request. And showing you a simple GitHub workflow. BONUS: learn how a gitignore file works! 
@@ -72,9 +76,11 @@ In this video, I'll show you how to pull the latest changes from GitHub. How to 
 
 #####New GIT commands used
 
+```
 1. touch .gitignore  (create .gitignore file)
 2. git pull origin master  (pull latest changes from your GitHub repository)
 3. git remote -v  (view remote connections)
+```
 
 ##Video 4 : All about branching.
 In this video, I'll show you what "branching" is. As well as how it works, why it's useful, and how to use it.
@@ -90,12 +96,14 @@ In this video, I'll show you what "branching" is. As well as how it works, why i
 
 #####New GIT commands used
 
+```
 1. git branch  (view all existing branches on your local repository)
 2. git branch branchName (creates a new branch named branchName)
 3. git checkout branchName  (switch from current branch onto a branch named branchName)
 4. git checkout -b branchname (creates a new branch named branchName and switches to it, combination of above two commands)
 5. git branch -d branchName  (delete a branch named branchName)
 6. git merge branchName  (pull changes FROM branch named branchName INTO the branch you're currently on)
+```
 
 ##Video 5 : Dealing with merge conflicts, remote repositories, and developing as a team. 
 In this video, I'll show you some common issues encountered when developing as a team, how to resolve a merge conflicts, how to set up multiple remote repositories, and how to change the url connection to a remote repository. You'll also learn how to fetch changes, pull changes, and merge changes from other repositories sucessfully. 
@@ -110,11 +118,13 @@ In this video, I'll show you some common issues encountered when developing as a
 
 #####New GIT commands used
 
+```
 1. git remote add repoName https://github.com/Username/Repository-Name.git  (allows multiple remote repositories)
 2. git fetch repoName branchName  (fetch changes from remote repo WITHOUT automatically merging them)
 3. git pull repoName branchName  (get changes, pull and merge them onto local machine)
 4. git remote set-url repoName git@github.com:Username/Repository-Name  (allows you to change the url for your GIT to GitHub connection)
 5. git remote rm repoName  (remove a remote repository)
+```
 
 ###At this point, you know enough GIT and GitHub to cover 95% of situations you're likely to encounter. I recommend building some familiarity with your new skills before advancing to the next 3 videos.
 
@@ -122,7 +132,7 @@ In this video, I'll show you some common issues encountered when developing as a
 In this video, I'll go over how to roll back to a previous commit in the event that something breaks. You'll also learn how to access previous versions of your code and the importance of why commit messages are so important.
 
 #####Video Link
-[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=9efyKL058Qg) 
+[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=uNY04FC2llk) 
 
 #####Helpful Links
 
@@ -133,6 +143,7 @@ In this video, I'll go over how to roll back to a previous commit in the event t
 
 #####New GIT commands used
 
+```
 1. git log  (view commit history, messages, and SHA ids for each commit. type 'q' to quit)
 2. git reset --soft HEAD^  (roll back to previous commit, leave changes staged)
 3. git reset --hard HEAD^  (roll back to previous commit, unstage changes)
@@ -141,6 +152,7 @@ In this video, I'll go over how to roll back to a previous commit in the event t
 6. git revert --continue  (continue forward with your revert. Creates revert commit)
 7. git pull repoName theSHAid  (pull previous commit from remote repository)
 8. git commit --amend -m "new commit message"  (change your previous commit message)
+```
 
 ##Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
 In this video, I'll show you how to debug large branches with multiple merge conflicts, how to compare and sync up branches in advance to avoid merge conflict disasters, how to compare two separate branches against their parent branch, and how to combine your commits together to keep things organized. You'll also learn a more advanced GIT workflow that will allow for faster development. 
@@ -156,6 +168,7 @@ In this video, I'll show you how to debug large branches with multiple merge con
 
 #####New GIT commands used
 
+```
 1. rm -rf .git  (forcibly remove the .git file from your directory. WARNING!!! USE WITH EXTREME CAUTION!!!)
 2. git diff branch1..branch2  (compare differences between two branches)
 3. git diff branch1...branch2  (compare branch1 and branch2 against their parent branch)
@@ -164,6 +177,7 @@ In this video, I'll show you how to debug large branches with multiple merge con
 6. git rebase -i HEAD~5  (combine previous 5 commits into one commit. WILL OPEN VIM, use esc, i, :w, :q)
 7. git rebase repoName/branchName (merge from repoName branchName into your current branch without creating a merge commit. places your commits at the top in the history line)
 8. git push repoName --delete branchName  (delete a branch named branchName that exists on your remote repository)
+```
 
 ##Video 8 Documenting your code, and GIT commands in depth.
 In this video, I'll be explaining why documentation matters. As well as some common practices for documenting your code. 
@@ -179,8 +193,10 @@ In this video, I'll be explaining why documentation matters. As well as some com
 
 #####New GIT commands used
 
+```
 1. git tag -a v0.0 -m "message" (assign a version number of 0.0 and a message to a commit.)
 2. git tag  (view existing tags)
 3. git --help  (brings up help menu and displays common options)
 4. git commandName --help  (display full manual on usage of specified command. press q to exit reader)
 5. git show v1.0  (show version 1.0 and associated information)
+```
