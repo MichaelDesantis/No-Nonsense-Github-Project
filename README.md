@@ -179,11 +179,11 @@ In this video, I'll show you how to avoid having to debug large branches with mu
 
 ```
 
-##Video 8 Documenting your code, and GIT commands in depth.
-In this video, I'll be explaining why documentation matters. As well as some common practices for documenting your code. 
+##Video 8 Documenting/tagging your code + GIT commands in depth.
+In this video, I'll be explaining how versioning works, and why it matters.
 
 #####Video Link
-[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=9efyKL058Qg) 
+[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=flSRyAraKb4) 
 
 #####Helpful Links
 
@@ -197,6 +197,7 @@ In this video, I'll be explaining why documentation matters. As well as some com
 1. git tag -a v0.0 -m "message" (assign a version number of 0.0 and a message to a commit.)
 2. git tag  (view existing tags)
 3. git show v1.0  (show version 1.0 and associated information)
-4. git --help  (brings up help menu and displays common options)
-5. git commandName --help  (display full manual on usage of specified command. Press q to exit doc)
+4. git tag -d v0.0.1  (remove a tag)
+5. git --help  (brings up help menu and displays common options)
+6. git commandName --help  (display full manual on usage of specified command. Press q to exit doc)
 ```
