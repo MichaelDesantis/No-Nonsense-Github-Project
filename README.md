@@ -155,10 +155,10 @@ In this video, I'll go over how to roll back to a previous commit in the event t
 ```
 
 ##Video 7 : Git workflow 2.0, debugging and organizing larger GIT projects. 
-In this video, I'll show you how to debug large branches with multiple merge conflicts, how to compare and sync up branches in advance to avoid merge conflict disasters, how to compare two separate branches against their parent branch, and how to combine your commits together to keep things organized. You'll also learn a more advanced GIT workflow that will allow for faster development. 
+In this video, I'll show you how to avoid having to debug large branches with multiple merge conflicts, how to compare and sync up branches in advance to avoid merge conflict disasters, how to compare two separate branches against their parent branch, and how to combine your commits together to keep things organized. You'll also learn a more advanced GIT workflow that will allow for faster development. 
 
 #####Video Link
-[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=9efyKL058Qg) 
+[![](img/youtube_logo.png)](https://www.youtube.com/watch?v=K_ndShku7og) 
 
 #####Helpful Links
 
@@ -169,14 +169,14 @@ In this video, I'll show you how to debug large branches with multiple merge con
 #####New GIT commands used
 
 ```
-1. rm -rf .git  (forcibly remove the .git file from your directory. WARNING!!! USE WITH EXTREME CAUTION!!!)
-2. git diff branch1..branch2  (compare differences between two branches)
-3. git diff branch1...branch2  (compare branch1 and branch2 against their parent branch)
-4. git diff branch1..branch2->branchlog.txt  (compares two branches, creates branchlog.txt if it doesn't already exist, and prints the output of the branch differences to the text file)
-5. git diff HEAD  (compare current directory to last commit)
-6. git rebase -i HEAD~5  (combine previous 5 commits into one commit. WILL OPEN VIM, use esc, i, :w, :q)
-7. git rebase repoName/branchName (merge from repoName branchName into your current branch without creating a merge commit. places your commits at the top in the history line)
-8. git push repoName --delete branchName  (delete a branch named branchName that exists on your remote repository)
+1. git diff branch1..branch2  (compare differences between two branches)
+2. git diff branch1...branch2  (compare branch1 and branch2 against their parent branch)
+3. git diff branch1..branch2 >branchlog.txt  (compares two branches, creates branchlog.txt if it doesn't already exist, and prints the output of the branch differences to the text file)
+4. git diff HEAD  (compare current directory to last commit)
+5. git push repoName --delete branchName  (delete a branch named branchName that exists on your remote repository)
+6. git rebase repoName/branchName (merge from repoName branchName into your current branch without creating a merge commit. places your commits at the top in the history line)
+7. git rebase -i HEAD~5  (combine previous 5 commits into one commit. WILL OPEN VIM, use esc, i, :w, :q)
+
 ```
 
 ##Video 8 Documenting your code, and GIT commands in depth.
@@ -196,7 +196,7 @@ In this video, I'll be explaining why documentation matters. As well as some com
 ```
 1. git tag -a v0.0 -m "message" (assign a version number of 0.0 and a message to a commit.)
 2. git tag  (view existing tags)
-3. git --help  (brings up help menu and displays common options)
-4. git commandName --help  (display full manual on usage of specified command. press q to exit reader)
-5. git show v1.0  (show version 1.0 and associated information)
+3. git show v1.0  (show version 1.0 and associated information)
+4. git --help  (brings up help menu and displays common options)
+5. git commandName --help  (display full manual on usage of specified command. Press q to exit doc)
 ```
